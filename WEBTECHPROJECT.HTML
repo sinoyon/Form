@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      body{
+  background-color: #ADD8E6;
+  color: white;
+}
+.pic{
+  text-align: right;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 20px;
+
+}
+
+img{
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  border: 5px solid white;
+}
+.h{
+    padding-top: 60px;
+    padding-left: 140px;
+    color: #444;
+    font-size: 20px;
+    margin-right: 140px;
+}
+
+  .p1{
+  width: 500px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.sec{
+    display: flex;
+    font-size: 20px;
+}
+.sec p{
+    padding: 20px;
+}
+.h h1{
+  border-bottom: 5px solid white;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.new{
+  padding: 50px;
+  font-size: 20px;
+
+}
+.app{
+  padding: 15px;
+    border-left: 3px solid white;
+}
+.aa .pic .imgbox{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.aa .pic .imgbox img{
+  max-width:100%;
+  width: 500px;
+  height: 250px;
+  transition: transform 3s;
+}
+  .aa .pic:hover .imgbox img{
+  transform: scale(1.2);
+}
+.button {
+  background-color: #f4511e;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.button:hover {opacity: 1};
+
+.app{
+  background-color: black;
+padding: 100px;
+}
+.bt{
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+  }
+
+ .container {
+    margin: auto;
+    width: 70%;
+
+  }
+
+   ul {
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    list-style: none;
+
+  }
+
+   nav {
+    background: #0E3459;
+    font-size:0px;
+    position: relative;
+    height: 110px;
+
+  }
+
+   nav>ul>li {
+    display: inline-block;
+    font-size: 22px;
+    padding: 0 35px;
+    position: relative;
+    margin-top: 20px;
+
+  }
+
+  nav>ul>li>a {
+    color: #fff;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease;
+  }
+
+  nav>ul>li:hover>a {
+    color: #419FFC;
+    border-bottom: 3px solid rgb(255, 255, 255);
+  }
+
+ .mega-menu {
+    background: #eee;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .mega-menu h3 {
+    color: #444;
+  }
+
+  .mega-menu .container {
+    display: flex;
+  }
+
+  .mega-menu .item {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+
+  .mega-menu a {
+    border-bottom: 1px solid #ddd;
+    color: #4ea3d8;
+    display: block;
+
+    padding: 10px 0;
+  }
+
+  .mega-menu a:hover {
+    color: #2d6a91;
+  }
+
+
+  .dropdown {
+    position: static;
+  }
+
+  .dropdown:hover .mega-menu {
+    visibility: visible;
+    opacity: 1;
+  }
+
+footer{
+    padding: 35px;
+    text-align:center;
+    background: #0E3459;
+    color:white;
+}
+
+
+      </style>
+
+  </head>
+  <body>
+<div class="nev">
+  <nav>
+
+      <ul class="containe">
+
+        <li><a href='#'>Home</a></li>
+        <li><a href='#'>Services</a></li>
+        <li><a href='#'>Team </a></li>
+        <li><a href='#'>Appointment</a></li>
+        <li><a href='#'>Conatct</a></li>
+      </ul>
+    </nav>
+</div>
+
+<div class="aa">
+  <div class="pic">
+      <div class="imgbox">
+    <img class="picc" src="m.jpg" alt="">
+  </div>
+<div class="h">
+  <h1 class="glow">Appointment</h1>
+</div>
+  </div>
+  <div class="p1">
+    <p>Doctor details: Psychiatrists are also medical doctors. Doctors have general medical training as well as specialized training in psychiatry. We have 10 doctors for 5 services such as Diagnosis, One-on-one, group therapy, Mental test, Counselling. We will provide our services online as well offline. </p>
+  </div>
+  <div class="sec">
+    <div class="p2">
+      <p id="ja">Online Support: We will be close by for such assistance. We will be internet during available time to offer online help to tackle the issues you face. You can get uphold <button type="button" id="but" name="button">Read More</button></p>
+
+    </div>
+  <div class="p2">
+    <p id="jb">Offline support: Are you stressed over software support? Thinking whether you will get support after taking software. Don’t worry, stay relax . We will provide you <button type="button" id="bt" name="button">Read More</button></p>
+
+  </div>
+</div>
+</div>
+<div class="new">
+<div class="app">
+    <div class="for">
+      <h1>Appointment Request Form:</h1>
+      <p>Please fill in this form to make an appointment .No Payment needed for appointment . You will be contacted via the phone number and (or) email you provided below .
+      Thank you </p>
+<div class="frm">
+
+<label for="">Your Name: * </label><input type="text" name="" value=""><br><br>
+<label for="">Your Email: * </label><input type="Email" name="" value=""><br><br>
+<label for="">Phone  No: * </label><input type="text" name="" value=""><br><br>
+<label for="">Your Age: * </label><input type="text" name="" value=""><br><br>
+<label for="Gender">Gender: * </label>
+  <select id="gender" name="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+  </select><br><br>
+<label for="">The Appintment is For? * </label>
+<input type="radio" name="" value="">Your Own
+<input type="radio" name="" value="">Other
+<br><br>
+<label for="">Select 1 . Counseling That is suitable for you * </label><br><br>
+<input type="radio" name="" value="">Individual
+<br>
+<input type="radio" name="" value="">Couple
+<br>
+<input type="radio" name="" value="">Child
+<br>
+<input type="radio" name="" value="">Other
+<br>
+<br><br>
+<label for="">Select Support type* </label>
+<input type="radio" name="" value="">Online
+<input type="radio" name="" value="">Offline
+<br><br>
+<label for="">Preferred language- best to express yourself  * </label><br><br>
+<input type="radio" name="" value="">English
+<br>
+<input type="radio" name="" value="">Chinese
+<br>
+<input type="radio" name="" value="">Malay
+<br>
+<input type="radio" name="" value="">Tamil
+<br>
+<br><br><label for="">We can contact you via  * </label><br><br>
+<input type="radio" name="" value="">Phone call
+<br>
+<input type="radio" name="" value="">Whatsapp
+<br>
+<input type="radio" name="" value="">Email
+<br>
+<input type="radio" name="" value="">Skype
+<br>
+<br><br><label for="">Issue that you would like to discuss  * </label><br><br>
+<input type="checkbox" name="" value="">Anxiety
+<br>
+<input type="checkbox" name="" value="">Depression
+<br>
+<input type="checkbox" name="" value="">Mental Disorder
+<br>
+<input type="checkbox" name="" value="">Marital Relationship
+<br>
+<input type="checkbox" name="" value="">Trauma Issue
+<br>
+<input type="checkbox" name="" value="">None of the above
+<br>
+<br><br>
+<label for="">Preferred Date * </label>
+<input type="date" name="" value="">
+<br><br>
+<label for="">Preferred Time (We will try our best to meet your Preferred time)* </label><br><br>
+<input type="radio" name="" value="">Morning
+<br>
+<input type="radio" name="" value="">Noon
+<br>
+<input type="radio" name="" value="">Afternoon
+<br>
+<input type="radio" name="" value="">Night
+<br>
+<br><br>
+<p>Please note that we do not rent or sell your information to any third parties!Service provided with a standard fee and charges.Appointment will be confirmed in 1-3 working day by email /phone call. We will try out best in meeting your preferences , should there be any discrepancies please feel free to contact us!.  </p>
+</div>
+<div class="bt">
+  <a href="#.html"><input onclick="myFunctio()" class="button" type="submit" name="" value="Submit">  </a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="fott">
+  <footer>
+      Web Technology All-rights reserved
+    </footer>
+</div>
+<script>
+
+    document.getElementById("but").onclick = function() {myF()};
+
+    function myF() {
+      document.getElementById("ja").innerHTML = "Online Support: We will be close by for such assistance. We will be internet during available time to offer online help to tackle the issues you face. You can get uphold through skype, TeamViewer, any desk, mobile phone, software and so on  .At whatever point you need help with respect to the product simply thump us to inform us. Our clinical clinicians are qualified psychological well-being experts. We utilize clinical strategies that depend on set up mental standards and exploration to help you roll out certain improvements in your life. Explains the advantages and difficulties to your psychological well-being of being on the web, and gives thoughts for caring for yourself on the web and getting support";
+      document.getElementById("ja").style.fontSize = "20px";
+      document.getElementById("ja").style.color = "blue";
+    }
+
+
+        document.getElementById("bt").onclick = function() {myFa()};
+
+        function myFa() {
+          document.getElementById("jb").innerHTML = "Offline support: Are you stressed over software support? Thinking whether you will get support after taking software. Don’t worry, stay relax . We will provide you face to face support as long as you use our software . We will help you to get all the facilities by offline support. Something will be there to guide you . Active work is an overall perceived wellbeing theme. People and wellbeing experts are getting progressively mindful of its advantages just as the ramifications looked through dormancy. Alongside the actual advantages research has demonstrated active work to positively affect person's emotional well-being. Numerous individuals discover active work to be testing. By getting into a routine including active work person's mind-set and self-assurance will improve.";
+          document.getElementById("jb").style.fontSize = "20px";
+          document.getElementById("jb").style.color = "blue";
+        }
+        function myFunctio() {
+          alert("All Information has been Collected");
+        }
+
+</script>
+  </body>
+</html>
